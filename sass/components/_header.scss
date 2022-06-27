@@ -1,0 +1,117 @@
+.header {
+	border-bottom: 1px solid #ececec;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+        color: var(--logo-black-color);
+        margin-right: 93px;
+    }
+    
+    &__logo--color {
+        color: var(--accent-color);
+    }
+}
+
+
+
+/* site-nav */
+
+.site-nav {
+	display: flex;
+
+    &__item {
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+ 
+    &--page {
+        color: var(--accent-color);
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: var(--accent-color);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-radius: 2px;
+        }
+    }
+    
+    
+    &__link {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
+    
+        color: var(--title-color);
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+        color: var(--accent-color);
+        }
+    }
+    
+}
+
+
+/* contacts */
+
+.contacts {
+	display: flex;
+	margin-left: auto;
+
+    &__list {
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    
+    &__link {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+    
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+            fill: var(--accent-color);
+        }
+    }
+
+    
+    &__icon {
+        margin-right: 10px;
+        fill: currentColor;
+    }
+}

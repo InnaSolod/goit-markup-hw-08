@@ -1,0 +1,36 @@
+.section-signs {
+	padding-top: 94px;
+
+    &__item {
+        display: flex;
+    }
+    &__list {
+        width: 270px;
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__container {
+        width: 270px;
+        height: 120px;
+        background-color: var(--background-team);
+        margin-bottom: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        margin-top: 0;
+        margin-bottom: 10px;
+    
+        color: var(--title-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        text-transform: uppercase;
+    }
+}

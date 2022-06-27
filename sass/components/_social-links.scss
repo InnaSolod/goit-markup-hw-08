@@ -1,0 +1,30 @@
+.social-links {
+	display: flex;
+	justify-content: center;
+
+    &__list {
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    
+    &__link {
+        display: block;
+        width: 44px;
+        height: 44px;
+        padding: 12px;
+        fill: #AFB1B8;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 50% 50%;
+
+        &:hover,
+        &:focus {
+            fill: var(--text-white-color);
+            background-color: var(--accent-color);
+        }
+    }
+
+}
