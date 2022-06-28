@@ -1,6 +1,7 @@
 .section {
 
     &__title {
+        display: none;
         margin-bottom: 50px;
         margin-top: 0;
     
@@ -11,7 +12,8 @@
         text-align: center;
     }
     &__item {
-        display: flex;
+        // display: flex;
+        display: none;
     }
     &__list {
         margin-right: 30px;

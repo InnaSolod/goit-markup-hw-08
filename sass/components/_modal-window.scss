@@ -23,8 +23,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	width: 528px;
-	height: 581px;
+	width: 450px;
+	height: 609px;
 	background-color: var(--text-white-color);
 	padding: 40px;
 
@@ -142,6 +142,7 @@ textarea {
 	margin-bottom: 30px;
 
     &__label {
+        font-size: 12px;
         display: flex;
         align-items: center;
         cursor: pointer;

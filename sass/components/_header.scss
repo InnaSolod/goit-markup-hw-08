@@ -1,10 +1,10 @@
 .header {
 	border-bottom: 1px solid #ececec;
 
-    &__container {
-        display: flex;
-        align-items: center;
-    }
+    // &__container {
+    //     display: flex;
+    //     align-items: center;
+    // }
     
     &__logo {
         font-family: "Raleway", sans-serif;
@@ -26,7 +26,9 @@
 /* site-nav */
 
 .site-nav {
-	display: flex;
+	// display: flex;
+    display: none;
+
 
     &__item {
         margin-right: 50px;
@@ -78,7 +80,8 @@
 /* contacts */
 
 .contacts {
-	display: flex;
+	// display: flex;
+    display: none;
 	margin-left: auto;
 
     &__list {
