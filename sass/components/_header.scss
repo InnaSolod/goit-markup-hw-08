@@ -1,12 +1,11 @@
 .header {
 	border-bottom: 1px solid #ececec;
     
-
+    
     &__container {
         display: flex;
         align-items: center;
-        width: 100%;
-        min-height: 60px;
+        height: 60px;
     }
     
     &__logo {
@@ -16,7 +15,7 @@
         line-height: 1.2;
         text-decoration: none;
         color: var(--logo-black-color);
-        // margin-right: 93px;
+         // margin-right: 93px;
     }
     
     &__logo--color {
