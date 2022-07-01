@@ -10,11 +10,9 @@
 	max-width: 1600px;
 	margin-right: auto;
 	margin-left: auto;
-
-    @media screen and (max-width: 480px) {
-        padding-top: 118px;
-        padding-bottom: 118px;
-    }
+    padding-top: 118px;
+    padding-bottom: 118px;
+    
 
     &__title {
         margin-top: 0;

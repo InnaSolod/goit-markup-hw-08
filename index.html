@@ -21,6 +21,12 @@
 		<header class="header">
 			<div class="container header__container">
 				<a href="./index.html" class="header__logo"><span class="header__logo--color">Web</span>Studio</a>
+				<button type="button" class="header__button" data-menu-button>
+					<svg width="40" height="40" aria-label="Мобильное меню">
+						<use class="header__icon--menu" href="./images/symbol-defs-menu.svg#menu_40px-1"></use>
+						<use class="header__icon--close" href="./images/symbol-defs-menu.svg#close_40px-1"></use>
+					</svg>
+				</button>
 				<nav>
 					<ul class="site-nav">
 						<li class="site-nav__item"><a class="site-nav__link site-nav--page" href="./index.html">Студия</a></li>
@@ -61,7 +67,7 @@
 			</section>
 
 			<!-- Особенности -->
-			<section class="section-signs">
+			<section class="section section-signs">
 				<div class="container">
 					<h2 class="--visually-hidden">Особенности</h2>
 					<ul class="section-signs__item">
@@ -106,18 +112,18 @@
 			</section>
 
 			<!-- Чем мы занимаемся -->
-			<section class="section">
+			<section class="section section-page">
 				<div class="container">
-					<h2 class="section__title">Чем мы занимаемся</h2>
-					<ul class="section__item">
-						<li class="section__list"><div class="section__wrapper"><img class="section__img" src="./images/box-1.jpg" alt="Программирование" width="370" height="294" />
-							<p class="section__text">Десктопные приложения</p></div>
+					<h2 class="section-page__title">Чем мы занимаемся</h2>
+					<ul class="section-page__item">
+						<li class="section-page__list"><div class="section-page__wrapper"><img class="section-page__img" src="./images/box-1.jpg" alt="Программирование" width="370" height="294" />
+							<p class="section-page__text">Десктопные приложения</p></div>
 						</li>
-						<li class="section__list"><div class="section__wrapper"><img class="section__img" src="./images/box-2.jpg" alt="Интерфейс" width="370" height="294" />
-							<p class="section__text">Мобильные приложения</p></div>
+						<li class="section-page__list"><div class="section-page__wrapper"><img class="section-page__img" src="./images/box-2.jpg" alt="Интерфейс" width="370" height="294" />
+							<p class="section-page__text">Мобильные приложения</p></div>
 						</li>
-						<li class="section__list"><div class="section__wrapper"><img class="section__img" src="./images/box-3.jpg" alt="Веб-дизайн" width="370" height="294" />
-							<p class="section__text">Дизайнерские решения</p></div>
+						<li class="section-page__list"><div class="section-page__wrapper"><img class="section-page__img" src="./images/box-3.jpg" alt="Веб-дизайн" width="370" height="294" />
+							<p class="section-page__text">Дизайнерские решения</p></div>
 						</li>
 					</ul>
 				</div>
@@ -379,6 +385,7 @@
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
+		<script src="./js/menu.js"></script>
 	</body>
 </html>
 
