@@ -10,10 +10,16 @@
             justify-content: space-around;
             margin-bottom: 60px;
         }
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 0;
+        }
     }
 
     &__wrapper {
-        text-align: center;
+        @media screen and (max-width: 1199px) {
+            text-align: center;
+        }
+        
     }
 
     &__logo {
@@ -26,6 +32,11 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 1.16;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            line-height: 1.19;
+        }
 
         &--color {
             color: var(--accent-color);
@@ -43,9 +54,17 @@
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 9px;
+        }
     }
     &__list {
         margin-bottom: 8px;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 9px;
+        }
 
         &:last-child {
             margin-bottom: 0;
@@ -53,7 +72,7 @@
     }
 
     &__link {
-        color: var(--text-color);
+        color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
         font-weight: 400;
         
@@ -66,10 +85,13 @@
 }
 
 .footer-social {
-	margin-bottom: 60px;
-    text-align: center;
-    
-    
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+    }
 
     &__text {
         color: var(--text-white-color);
@@ -111,15 +133,23 @@
 
 
 .e-mail {
-	// margin-left: 93px;
-    text-align: center;
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+    }
+    
     
     
     &__form {
-        @media screen and (min-width: 768px) {
+        @media screen and (max-width: 1199px) {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
         }
     }
 
@@ -132,9 +162,15 @@
         height: 50px;
         padding: 15px 16px;
         color: rgba(255, 255, 255, 0.6);
-        margin-bottom: 20px;
+        
         @media screen and (min-width: 768px) {
-            max-width: 450px;
+            width: 450px;
+        }
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 20px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 358px;
         }
         
 
@@ -165,8 +201,9 @@
 
         cursor: pointer;
         border: none;
-        // margin-left: 12px;
-
+        @media screen and (min-width: 1200px) {
+            margin-left: 12px;
+        }
         &::after {
             content: "";
             display: inline-block;
