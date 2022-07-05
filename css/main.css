@@ -163,7 +163,7 @@ body.modal-open {
     width: 100%;
     background-color: #fff;
     padding: 48px 40px;
-    max-height: 796px;
+    height: 100%;
     z-index: 1;
   }
   .menu-container__nav {
@@ -303,7 +303,7 @@ body.modal-open {
     margin-bottom: 64px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__list {
     margin-bottom: 10px;
   }
@@ -940,7 +940,6 @@ body.modal-open {
 
 @media screen and (max-width: 1199px) {
   .footer-social {
-    margin-bottom: 60px;
     text-align: center;
   }
 }
