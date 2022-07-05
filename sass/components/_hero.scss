@@ -1,8 +1,6 @@
 .hero {
 	background: var(--background-color);
 	text-align: center;
-	// background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-	// 	url(../images/background-img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 1600px;
@@ -11,9 +9,32 @@
     padding-top: 118px;
     padding-bottom: 118px;
 
+    @media screen and (max-width: 767px) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/background-img-mob.jpg);
+        @media screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/background-img-mob@2x.jpg);
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/background-img-tab.jpg);
+        @media screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/background-img-tab@2x.jpg);
+        }
+    }
+
     @media screen and (min-width: 1200px) {
         padding-top: 200px;
 	    padding-bottom: 200px;
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/background-img.jpg);
+        @media screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/background-img@2x.jpg);
+        }
     }
 
     
