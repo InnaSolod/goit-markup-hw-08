@@ -858,6 +858,11 @@ body.modal-open {
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
+@media screen and (max-width: 767px) {
+  .footer__container {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer__container {
     display: -webkit-box;
@@ -871,6 +876,11 @@ body.modal-open {
 @media screen and (min-width: 1200px) {
   .footer__container {
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 1199px) {
